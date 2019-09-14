@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Home Page
+    link(rel="stylesheet", href="assets/css/app.css")
+  body
+    .arcontent
+      header.arheader
+        nav.arnavbar
+          ul.arnav
+              a.arbrand(href='/')
+                img.arbrand-avatar(src='https://source.unsplash.com/gKbrJTDV6os/300x300' alt='')
+              li.arnav__item
+                a.arnav__link(href='#arpaper')
+                  i.fas.fa-scroll.arnav__icon
+                  span.arnav__text Papers
+              li.arnav__item
+               a.arnav__link(href='#arproject')
+                  i.fas.fa-project-diagram.arnav__icon
+                  span.arnav__text Projects
+              li.arnav__item
+                a.arnav__link(href='#arblog')
+                  i.fas.fa-blog.arnav__icon
+                  span.arnav__text Blogs
+              //- li.arnav__item
+              //-   a.arnav__link(href='#arcontact')
+              //-     i.far.fa-address-card.arnav__icon
+              //-     span.arnav__text Contact
+      .arcontent-wrapper
+        aside.arcontent-sidebar
+          .arcontent-sidebar__head
+              img.arcontent-avatar(src='https://source.unsplash.com/gKbrJTDV6os/300x300' alt='')
+          .arcontent-sidebar__body
+              p.arbio This is Arpit Rana. I am currently pursuing Phd under guidance of Derek. (Short Bio)
+              a.arcontactat(href="mailto:er.arpitrana@gmail.com")
+                i.far.fa-envelope.arcontactat__icon
+                | er.arpitrana@gmail.com
+              a.arcontactat(href="tel:49984984984")
+                i.fas.fa-mobile.arcontactat__icon
+                | 938920093093
+          .arcontent-sidebar__foot
+              ul
+                li
+                    a(href='')
+                    i.fab.fa-facebook
+                li
+                    a(href='')
+                    i.fab.fa-twitter
+                li
+                    a(href='')
+                    i.fab.fa-github
+                li
+                    a(href='')
+                    i.fab.fa-google-plus
+              //- a.btn.btn-block(href='#')
+              //-   | Download
+              //-   i.fas.fa-file-download.ml-2
+        main.arcontent-block
+          section#arabout.arsection.arsection-about
+            h1.arsection__heading About
+            .arsection__wysiwyg
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam odit at delectus. Nisi vitae at voluptatem nostrum adipisci nulla vel eaque porro ullam id, corrupti, consequatur perferendis, accusantium commodi?
+
+          section#arpaper.arsection.arsection-paper
+            h1.arsection__heading Papers
+            .arpapers
+              .arpapers__item
+                h4.arpapers__title Explanation Chains Recommendation System
+                p.arpapers__meta Arpit | 23 April, 2019
+                p.arpapers__brief Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi sapiente unde quo repellendus ex autem exercitationem ipsum harum, voluptate ad veniam ipsa mollitia, accusantium soluta saepe ullam fugit perspiciatis reprehenderit.
+              .arpapers__item
+                h4.arpapers__title Explanation Chains Recommendation System
+                p.arpapers__meta Arpit | 23 April, 2019
+                p.arpapers__brief Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi sapiente unde quo repellendus ex autem exercitationem ipsum harum, voluptate ad veniam ipsa mollitia, accusantium soluta saepe ullam fugit perspiciatis reprehenderit.
+
+          section#arproject.arsection.arsection-project
+            h1.arsection__heading Projects
+            .arprojects-swiper
+              .arprojects
+                .arprojects__item
+                  .arprojects__media
+                    img.arprojects__media-img(src="assets/images/reelscreen-home.png", alt="")
+                  .arprojects__content
+                    .arprojects__item-head
+                      h4.arprojects__title ReelScreen
+                    .arprojects__item-body
+                      p.arprojects__brief Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non, aspernatur
+                    .arprojects__item-action
+                      a.arprojects__item-action-link(href="#") View Details
+                .arprojects__item
+                  .arprojects__media
+                    img.arprojects__media-img(src="assets/images/reelscreen-home.png", alt="")
+                  .arprojects__content
+                    .arprojects__item-head
+                      h4.arprojects__title ReelScreen
+                    .arprojects__item-body
+                      p.arprojects__brief Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non, aspernatur
+                    .arprojects__item-action
+                      a.arprojects__item-action-link(href="#") View Details
+
+          section#arblog.arsection.arsection-blog
+            h1.arsection__heading Blogs
+            .arblogs-swiper
+              .arblogs
+                .arblogs__item.arblogs__item-featured
+
+        aside.arcontent-sidebar.arcontent-sidebar--white
+            .arsubsection
+              h3.arsubheading Events
+              .arevents-container
+                .arevents
+                  .arevents__item
+                    .arevents__item-head
+                      h5.arevents__title Enrolled in P.hd.
+                      span.arevents__date 23 May, 2016
+                    .arevents__item-body
+                      p.arevents__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque magni incidunt consequuntur repellendus.
+                  .arevents__item
+                    .arevents__item-head
+                      h5.arevents__title Enrolled in P.hd.
+                      span.arevents__date 23 May, 2016
+                    .arevents__item-body
+                      p.arevents__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque magni incidunt consequuntur repellendus.
+            .arsubsection
+              h3.arsubheading Latest Posts
+              .arblogs-container
+                .arblogs
+                  .arblogs__item
+                    .arblogs__item-head
+                      h5.arblogs__title Future of AI
+                    .arblogs__item-meta
+                      span.arblogs__author Arpit
+                      span.arblogs__date 23 May, 2019
+                    .arblogs__item-body
+                      p.arblogs__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo, iste quibusdam
+                .arblogs__item
+                    .arblogs__item-head
+                      h5.arblogs__title Future of AI
+                    .arblogs__item-meta
+                      span.arblogs__author Arpit
+                      span.arblogs__date 23 May, 2019
+                    .arblogs__item-body
+                      p.arblogs__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo, iste quibusdam
+      footer.arfooter
+        p.arfooter-copy &copy; 2019. All rights reserved.
+      svg#crt-bg-shape-1.hidden-sm.hidden-xs(height='519' width='758')
+        polygon.pol(points='0,455,693,352,173,0,92,0,0,71')
+      svg#crt-bg-shape-2.hidden-sm.hidden-xs(height='536' width='633')
+        polygon(points='0,0,633,0,633,536')
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js")
+    script(src="assets/js/app.js")
